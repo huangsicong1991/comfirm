@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+    *{margin:0;padding:0;}
+	div{
+	  width:724px;
+	  height:40px;
+	  margin:0 auto;
+	  line-height:40px;
+	  cursor:pointer;
+	  text-align:center;
+	  background:#dddddd;
+	}
+	p{
+	width:724px;;
+	height:600px;
+    margin:0 auto;
+	}
+	p img{
+	height:100%;
+	display:inline-block;
+    text-align:center;
+	vertical-align:middle;
+	margin-left:100px;
+	}
+
+  </style>
+  <script language="javascript">
+	 function go() {
+	    var password="";
+		password=prompt('请输入密码（本网站需输入密码才可进入)：','');
+		if (password=='hsc'){
+		   window.location="https://huangsicong1991.github.io/basa/index.html"
+		}else{
+		  alert("丢,密码错了啦")
+		}
+	 }
+  </script>
+ </head>
+ <body>
+    <div onclick="go()">哈哈..点击进去有东西看哦</div>
+	<p><img src="0005018618241867_b.jpg"/><span></span></p>
+ </body>
+</html>
